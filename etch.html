@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Etch A Sketch</title>
+        <link rel="stylesheet" href="etch.css">
+        <link rel="stylesheet" href="https://use.typekit.net/mae4afb.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container justify-content-center align-self-center" id="headDiv">
+            <h1 class="fontType" id="header">Choose artboard size:</h1>
+            <input type="text" id="userinput" class="fontType" placeholder="ex. 36, 64, 100...">
+            <button onclick="inputFunction()" class="fontType" id="createBtn">create</button>
+        </div>
+
+        <div class="container justify-content-center align-self-center" id="mainDiv"></div>
+
+        <div class="container justify-content-center align-self-center" id="refreshDiv">
+            <button onclick="refreshFunction()" class="fontType" id="refreshBtn">clear artboard</button>
+        </div>
+        <script src="etch.js"></script>
+    </body>
+</html>

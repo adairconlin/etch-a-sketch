@@ -1,0 +1,82 @@
+body {
+   background-color: #E6E6E6 !important;
+}
+
+#headDiv {
+    display: flex;
+    margin-top: 2vw;
+}
+
+#mainDiv {
+    width: 600px;
+    height: 600px;
+    display: block;
+    padding: 0;
+    margin-top: 2vw;
+}
+
+#refreshDiv {
+    display: flex;
+    margin-top: 2vw;
+}
+
+.square {
+    border: 1px solid #95B1FF;
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+    float: left;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.fontType {
+    color: #707070;
+    font-family: multi-display, sans-serif;
+    font-style: normal;
+}
+
+#header {
+    font-weight: 700 !important;
+    font-size: 2.5vw;
+    margin-right: 1vw;
+}
+
+input {
+    border: none;
+    background-color: #CFCFCF;
+    height: 2.8vw;
+    border-radius: 7px 0px 0px 7px;
+    text-align: center;
+    font-size: 1.5vw !important;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: #707070;
+    color: #e6e6e6 !important;
+    border: none;
+}
+
+#createBtn {
+    font-weight: 600 !important;
+    font-size: 1.3vw;
+    height: 2.8vw;
+    border-radius: 0px 7px 7px 0px;
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+#refreshBtn {
+    font-weight: 600 !important;
+    font-size: 1.5vw;
+    border-radius: 7px 7px 7px 7px;
+    padding: .3vw 2vw .3vw 2vw;
+}
+
